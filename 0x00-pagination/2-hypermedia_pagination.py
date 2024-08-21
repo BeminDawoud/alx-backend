@@ -44,7 +44,7 @@ class Server:
         data = self.dataset()
         if ranges[0] > len(data):
             return []
-        return data[ranges[0] : ranges[1]]
+        return data[ranges[0]:ranges[1]]
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> Dict:
         """
