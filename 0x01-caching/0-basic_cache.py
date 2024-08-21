@@ -4,7 +4,7 @@
 from base_caching import BaseCaching
 
 
-class BaseCache(BaseCaching):
+class BasicCache(BaseCaching):
     """BaseCache Completes BaseCaching"""
 
     def put(self, key, item):
